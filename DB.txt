@@ -1,0 +1,47 @@
+All Tables
+--------------------------------Model ---------------------------------------
+1. Table: Store (Model)
+    Fill            Fill Type
+    - name          string
+    - image         string
+    - qty           integer
+    - price_buy         integer
+    - price_sell        integer
+
+2. Table: User (Model)
+    Fill            Fill Type
+    - name          string
+    - email         string
+    - password      string
+
+3. Tables: Transection (MOdel)
+    Fill            Fill Type
+    - tran_id       string
+    - tran_type     string
+    - product_id    string
+    - qty           integer
+    - price         integer
+    - detail        string
+
+4. Tables: Bill (Model)
+    Fill            Fill Type
+    - bill_id       string
+    - cutomer_name  string
+    - customer_tel  string
+    
+5. Tables: Bill_list (Model)
+    Fill            Fill Type
+    - bill_id       string
+    - name          string
+    - qty           integer
+    - price         integer
+
+
+------------------------Controller -------------------
+
+    - StoreController
+    - UserController
+    - TransectionController
+    - BillController
+    - ReportController
+
